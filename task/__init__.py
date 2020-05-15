@@ -2,7 +2,7 @@ from . import _native
 
 ffi = _native.ffi
 # This will problably raise some problems in the future
-buffer = _native.ffi.new('uint8_t[]', 10000000) 
+buffer = _native.ffi.new('uint8_t[]', 10000) 
 
 def parse(s):
     data = list(s)
